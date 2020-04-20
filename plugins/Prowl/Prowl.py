@@ -106,11 +106,6 @@ def run(typ, freq, data):
             logging.debug("Title   : %s", title)
             logging.debug("Text    : %s", text)
             logging.debug("Priority: %s", priority)
-				
-            # check priority value
-            if (priority != 'false') and (priority != 'true'):
-                logging.info("No Priority set for type '%s'! Skipping Prowl-Alarm!", typ)
-                return
 
             # start the connection
             conn = httplib.HTTPSConnection("api.prowlapp.com:443")
