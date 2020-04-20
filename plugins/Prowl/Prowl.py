@@ -3,7 +3,7 @@
 
 """
 Prowl-Plugin to send FMS-, ZVEI- and POCSAG - messages to Prowl
-@author: Marco Grosjohann
+@author: Christopher Bentley
 @requires: Prowl-Configuration has to be set in the config.ini
 """
 
